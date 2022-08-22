@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
+/*------NAVBAR------*/
+#navbar {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+.logo,
+.menu {
+  padding: 10px;
+}
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+.branco {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar a:link,
+#navbar a:visited {
+  color: white;
+  padding: 8px 12px;
+}
+
+#navbar a:hover {
+  color: #f7b600;
+  background-color: white;
+  text-decoration: none;
+}
+
+/*------MAIN------*/
+
+#corpo {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/*------AREA CONTEUDO------*/
+.conteudo {
+  width: 660px;
+  float: left;
+}
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.tituloPostagem {
+  color: #f7b600;
+}
+.dataPostagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.imagem1 {
+  width: 620px;
+}
+a:link,
+a:visited {
+  color: #f7b600;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#areaLateral {
+  width: 240px;
+  float: right;
+}
+
+/*------AREA LATERAL------*/
+.conteudoLateral {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #565656;
+  background-color: #ccc;
+  padding: 5px;
+}
+.postagemLateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+}
+
+/*------FOOTER------*/
+#rodape {
+  background-color: #ccc;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
